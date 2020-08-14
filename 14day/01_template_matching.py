@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('C:/Users/do/Documents/github/opencv_python/res/messi.jpg',0)
+img = cv2.imread('./res/messi.jpg',0)
 img2 = img.copy()
-template = cv2.imread('C:/Users/do/Documents/github/opencv_python/res/template.jpg',0)
+template = cv2.imread('./res/template.jpg',0)
 w, h = template.shape[::-1]
 
 # All the 6 methods for comparison in a list

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("C:/Users/do/Documents/github/opencv_python/res/kimheungkook.jpg")
+img = cv2.imread("./res/kimheungkook.jpg")
 lower_reso1 = cv2.pyrDown(img)
 lower_reso2 = cv2.pyrDown(lower_reso1)
 

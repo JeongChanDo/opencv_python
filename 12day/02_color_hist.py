@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('C:/Users/do/Documents/github/opencv_python/res/home.jpg')
+img = cv2.imread('./res/home.jpg')
 
 
 color = ('b','g','r')
